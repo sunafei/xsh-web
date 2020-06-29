@@ -6,7 +6,7 @@ build:
     - ls
     - pwd
     - whoami
-    - cp -r * /www/wwwroot/dist
+    - ifconfig
 #    - cd xsh-web
 #    - /www/server/nvm/versions/node/v12.18.1/bin/npm install --registry=https://registry.npm.taobao.org
 #    - cp -r dist /www/wwwroot/dist
