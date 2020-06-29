@@ -4,5 +4,5 @@ build:
   stage: build
   script:
 #    - cd xsh-web
-    - sudo npm install --registry=https://registry.npm.taobao.org
+    - /www/server/nvm/versions/node/v12.18.1/bin/npm install --registry=https://registry.npm.taobao.org
     - cp -r dist /www/wwwroot/dist
