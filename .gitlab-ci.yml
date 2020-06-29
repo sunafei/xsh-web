@@ -1,12 +1,8 @@
+image: node
 stages:
   - build
 build:
   stage: build
   script:
-    - ls
-    - pwd
-    - whoami
-    - ip a
-#    - cd xsh-web
-#    - /www/server/nvm/versions/node/v12.18.1/bin/npm install --registry=https://registry.npm.taobao.org
-#    - cp -r dist /www/wwwroot/dist
+    - /www/server/nvm/versions/node/v12.18.1/bin/npm install --registry=https://registry.npm.taobao.org
+    - cp -r dist /www/wwwroot/dist
