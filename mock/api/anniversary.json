@@ -1,0 +1,19 @@
+{
+  "data": {
+    "items|9": [{
+      "content": "@cparagraph",
+      "dateVal": "@date",
+      "dayNum": "@integer(0, 100)",
+      "id": "@guid",
+      "name": "@csentence",
+      "realDate": "@date",
+      "type|+1": ["阴历", "阳历"]
+    }],
+    "total": 9
+  },
+  "dataType": "object",
+  "msg": "操作成功",
+  "state": "200",
+  "time": 0,
+  "type": "data"
+}

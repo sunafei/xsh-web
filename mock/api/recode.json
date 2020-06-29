@@ -1,0 +1,16 @@
+{
+  "data": {
+    "items|3": [{
+      "content": "@cparagraph",
+      "fileId": "{\"name\":\"082209084605_0MX-M503N_20180822_085554_1.jpg\",\"id\":\"@guid\",\"extName\":\"jpg\",\"url\":\"@image('200x200', '#50B347', '#FFF', 'image')\",\"uid\":1535972560981,\"status\":\"success\"}",
+      "id": "@guid",
+      "name": "@csentence",
+    }],
+    "total": 3
+  },
+  "dataType": "object",
+  "msg": "操作成功",
+  "state": "200",
+  "time": 0,
+  "type": "data"
+}

@@ -1,9 +1,10 @@
 <template>
   <div class="login-container">
+    <github-corner className="login"></github-corner>
     <el-form class="login-form" autoComplete="on" :model="loginForm" :rules="loginRules" ref="loginForm" label-position="left">
       <h3 class="title">
         小生活
-        <el-popover placement="right" width="180px" trigger="click">
+        <el-popover placement="right" width="180px" trigger="hover">
           <el-image style="width: 150px; height: 150px" :src="require('@/views/login/wx.jpeg')"></el-image>
           <svg-icon icon-class="wx" slot="reference" />
         </el-popover>
@@ -46,9 +47,11 @@
 </template>
 <script>
   import githubAuth from './components/githubAuth'
+  import GithubCorner from '@/components/GithubCorner'
   export default {
     name: 'login',
     components: {
+      GithubCorner,
       githubAuth
     },
     data() {

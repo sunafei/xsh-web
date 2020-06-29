@@ -1,0 +1,19 @@
+{
+  "data": {
+    "items|8": [{
+      "content": "@cparagraph",
+      "dateVal": 1535299200000,
+      "done|+1": [false, true],
+      "fee": "@integer(10000, 20000)",
+      "id": "@guid",
+      "name": "@csentence",
+      "type|+1": ["借入", "借出"]
+    }],
+    "total": 8
+  },
+  "dataType": "object",
+  "msg": "操作成功",
+  "state": "200",
+  "time": 0,
+  "type": "data"
+}

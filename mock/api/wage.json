@@ -1,0 +1,16 @@
+{
+  "data": {
+    "items|8": [{
+      "content": "@cparagraph",
+      "dateVal": "@date",
+      "fee": "@integer(10000, 20000)",
+      "id": "@guid"
+    }],
+    "total": 8
+  },
+  "dataType": "object",
+  "msg": "操作成功",
+  "state": "200",
+  "time": 0,
+  "type": "data"
+}

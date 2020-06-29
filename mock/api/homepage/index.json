@@ -1,0 +1,82 @@
+{
+  "data": {
+    "wages": function() {
+      let wagess = []
+      let nowDates = new Date()
+      for (var i = 0; i < 36; i++) {
+        let wage = []
+        wage.push(nowDates.setMonth(nowDates.getMonth() - i))
+        wage.push(Math.floor(Math.random() * 10000))
+        wagess.push(wage)
+      }
+      return wagess.reverse()
+    },
+    "timeline": {
+      "names": ["@/time1", "@/time2", "@/time3", "@/time4", "@/time5", "@/time6", "@/time7", "@/time8", "@/time9", "@/time10", "@/time11", "@/time12", "@/time13", "@/time14", "@/time15", "@/time16", "@/time17", "@/time18", "@/time19", "@/time20"],
+      "level1": [
+        ["@/time1", "@integer(1, 10)", 1, "@csentence", "@guid"],
+
+        ["@/time12", "@integer(1, 10)", 1, "@csentence", "@guid"],
+        ["@/time4", "@integer(1, 10)", 1, "@csentence", "@guid"],
+        ["@/time5", "@integer(1, 10)", 1, "@csentence", "@guid"],
+      ],
+      "level3": [
+        ["@/time17", "@integer(1, 10)", 3, "@csentence", "@guid"],
+        ["@/time10", "@integer(1, 10)", 3, "@csentence", "@guid"],
+        ["@/time11", "@integer(1, 10)", 3, "@csentence", "@guid"],
+        ["@/time2", "@integer(1, 10)", 3, "@csentence", "@guid"],
+        ["@/time3", "@integer(1, 10)", 3, "@csentence", "@guid"],
+        ["@/time13", "@integer(1, 10)", 3, "@csentence", "@guid"],
+        ["@/time14", "@integer(1, 10)", 3, "@csentence", "@guid"],
+      ],
+      "level2": [
+        ["@/time15", "@integer(1, 10)", 2, "@csentence", "@guid"],
+        ["@/time16", "@integer(1, 10)", 2, "@csentence", "@guid"],
+        ["@/time17", "@integer(1, 10)", 2, "@csentence", "@guid"],
+        ["@/time18", "@integer(1, 10)", 2, "@csentence", "@guid"],
+        ["@/time19", "@integer(1, 10)", 2, "@csentence", "@guid"],
+        ["@/time20", "@integer(1, 10)", 2, "@csentence", "@guid"],
+        ["@/time6", "@integer(1, 10)", 2, "@csentence", "@guid"],
+        ["@/time7", "@integer(1, 10)", 2, "@csentence", "@guid"],
+        ["@/time8", "@integer(1, 10)", 2, "@csentence", "@guid"],
+        ["@/time9", "@integer(1, 10)", 2, "@csentence", "@guid"],
+      ],
+
+    },
+    "cardPanel": {
+      "firstDate": "08-19  我的生日",
+      "incomeFee": "@integer(10000, 99999)",
+      "outFee": "@integer(10000, 99999)",
+      "secondDate": "03-24  媳妇生日",
+      "star2Note": "@integer(0, 20)",
+      "star2Timeline": "@integer(0, 20)",
+      "star3Note": "@integer(0, 20)",
+      "star3Timeline": "@integer(0, 20)"
+    }
+  },
+  "dataType": "object",
+  "msg": "操作成功",
+  "state": "200",
+  "time": 0,
+  "type": "data",
+  "time1": "@date(yyyy-MM-dd)",
+  "time2": "@date(yyyy-MM-dd)",
+  "time3": "@date(yyyy-MM-dd)",
+  "time4": "@date(yyyy-MM-dd)",
+  "time5": "@date(yyyy-MM-dd)",
+  "time6": "@date(yyyy-MM-dd)",
+  "time7": "@date(yyyy-MM-dd)",
+  "time8": "@date(yyyy-MM-dd)",
+  "time9": "@date(yyyy-MM-dd)",
+  "time10": "@date(yyyy-MM-dd)",
+  "time11": "@date(yyyy-MM-dd)",
+  "time12": "@date(yyyy-MM-dd)",
+  "time13": "@date(yyyy-MM-dd)",
+  "time14": "@date(yyyy-MM-dd)",
+  "time15": "@date(yyyy-MM-dd)",
+  "time16": "@date(yyyy-MM-dd)",
+  "time17": "@date(yyyy-MM-dd)",
+  "time18": "@date(yyyy-MM-dd)",
+  "time19": "@date(yyyy-MM-dd)",
+  "time20": "@date(yyyy-MM-dd)"
+}

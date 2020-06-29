@@ -1,0 +1,10 @@
+{
+  "data": {
+    token: 123456
+  },
+  "dataType": "object",
+  "msg": "操作成功",
+  "state": "200",
+  "time": 0,
+  "type": "data"
+}

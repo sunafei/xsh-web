@@ -1,0 +1,15 @@
+{
+  "data": {
+    "email": "@email",
+    "id": "@guid",
+    "mobile": /^1[385][1-9]\d{8}/,
+    "name": "@cname",
+    "photoId": "@image('200x100', '#50B347', '#FFF', 'photo')",
+    "username": "@email"
+  },
+  "dataType": "object",
+  "msg": "操作成功",
+  "state": "200",
+  "time": 0,
+  "type": "data"
+}

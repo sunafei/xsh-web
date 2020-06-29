@@ -1,12 +1,12 @@
 <template>
   <div class="dashboard-editor-container">
-    <github-corner></github-corner>
+    <github-corner className="home"></github-corner>
     <el-row class="panel-group" :gutter="40">
       <el-col :xs="12" :sm="12" :lg="6" class="card-panel-col" >
         <a href="#/anniversary/index">
           <div class='card-panel'>
             <div class="card-panel-icon-wrapper icon-people">
-              <svg-icon icon-class="date" class-name="card-panel-icon" />
+              <svg-icon icon-class="shengri" class-name="card-panel-icon" />
             </div>
             <div class="card-panel-description">
               <div class="card-panel-text">重要日期</div>
@@ -48,30 +48,66 @@
           </div>
         </a>
       </el-col>
-<!--      <el-col :xs="12" :sm="12" :lg="6" class="card-panel-col">-->
-<!--        <a href="#/note/index">-->
-<!--          <div class="card-panel">-->
-<!--            <div class="card-panel-icon-wrapper icon-shoppingCard">-->
-<!--              <svg-icon icon-class="note" class-name="card-panel-icon" />-->
-<!--            </div>-->
-<!--            <div class="card-panel-description">-->
-<!--              <div class="card-panel-text">记事本</div>-->
-<!--                                  ★★★-->
-<!--              <count-to class="card-panel-num" :startVal="0" :endVal="cardPanel.star3Note" :duration="2000"></count-to><br />-->
-<!--                                   ★★&nbsp;&nbsp;&nbsp;-->
-<!--              <count-to class="card-panel-num" :startVal="0" :endVal="cardPanel.star2Note" :duration="2000"></count-to><br />-->
-<!--            </div>-->
-<!--          </div>-->
-<!--        </a>-->
-<!--      </el-col>-->
+      <el-col :xs="12" :sm="12" :lg="6" class="card-panel-col">
+        <a href="#/wage/index">
+          <div class="card-panel">
+            <div class="card-panel-icon-wrapper icon-four">
+              <svg-icon icon-class="note" class-name="card-panel-icon" />
+            </div>
+            <div class="card-panel-description">
+              <div class="card-panel-text">记事本</div>
+              ★★★
+              <count-to class="card-panel-num" :startVal="0" :endVal="cardPanel.star3Note" :duration="2000"></count-to><br />
+              ★★&nbsp;&nbsp;&nbsp;
+              <count-to class="card-panel-num" :startVal="0" :endVal="cardPanel.star2Note" :duration="2000"></count-to><br />
+            </div>
+          </div>
+        </a>
+      </el-col>
       <el-col :xs="12" :sm="12" :lg="6" class="card-panel-col">
         <a href="#/password/index">
           <div class="card-panel">
             <div class="card-panel-icon-wrapper icon-shoppingCard">
-              <svg-icon icon-class="note" class-name="card-panel-icon" />
+              <svg-icon icon-class="mima" class-name="card-panel-icon" />
             </div>
             <div class="card-panel-description">
               <div class="card-panel-text">密码本</div>
+            </div>
+          </div>
+        </a>
+      </el-col>
+      <el-col :xs="12" :sm="12" :lg="6" class="icon-money">
+        <a href="#/note/index">
+          <div class="card-panel">
+            <div class="card-panel-icon-wrapper icon-money">
+              <svg-icon icon-class="gongzi" class-name="card-panel-icon" />
+            </div>
+            <div class="card-panel-description">
+              <div class="card-panel-text">工资</div>
+            </div>
+          </div>
+        </a>
+      </el-col>
+      <el-col :xs="12" :sm="12" :lg="6" class="card-panel-col">
+        <a href="#/recode/index">
+          <div class="card-panel">
+            <div class="card-panel-icon-wrapper icon-message">
+              <svg-icon icon-class="zhengjian" class-name="card-panel-icon" />
+            </div>
+            <div class="card-panel-description">
+              <div class="card-panel-text">证件信息</div>
+            </div>
+          </div>
+        </a>
+      </el-col>
+      <el-col :xs="12" :sm="12" :lg="6" class="card-panel-col">
+        <a href="#/recode/index">
+          <div class="card-panel">
+            <div class="card-panel-icon-wrapper icon-four">
+              <svg-icon icon-class="gerenziliao" class-name="card-panel-icon" />
+            </div>
+            <div class="card-panel-description">
+              <div class="card-panel-text">个人资料</div>
             </div>
           </div>
         </a>
@@ -176,6 +212,9 @@
         .icon-message {
           background: #36a3f7;
         }
+        .icon-four {
+          background: #71d3e2;
+        }
         .icon-money {
           background: #f4516c;
         }
@@ -188,6 +227,9 @@
       }
       .icon-message {
         color: #36a3f7;
+      }
+      .icon-four {
+        color: #71d3e2;
       }
       .icon-money {
         color: #f4516c;

@@ -1,0 +1,13 @@
+{
+  "data": {
+    "id": "@guid",
+    "name": "@cname",
+    "photoId": "@image('200x100', '#40C9C6', 'Hi!')",
+    "roles": ["001"]
+  },
+  "dataType": "object",
+  "msg": "操作成功",
+  "state": "200",
+  "time": 0,
+  "type": "data"
+}
