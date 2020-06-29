@@ -3,6 +3,6 @@ stages:
 build:
   stage: build
   script:
-    - cd xsh-web
+#    - cd xsh-web
     - npm install --registry=https://registry.npm.taobao.org
     - cp -r dist /www/wwwroot/dist
