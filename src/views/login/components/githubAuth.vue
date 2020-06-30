@@ -23,6 +23,7 @@ export default {
   },
   created: function() {
     this.getCode()
+    console.log('获取到code==' + this.code)
     if (this.code) {
       this.loginLoading = this.$loading({
         lock: true,
@@ -57,7 +58,7 @@ export default {
           this.loginLoading.close()
         }
         this.$router.push({
-          path: '/'
+          path: '/#/dashboard'
         })
       }).catch(() => {
         this.loading = false
