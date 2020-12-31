@@ -16,7 +16,7 @@ service.interceptors.request.use(config => {
     if (!config.params) {
       config.params = {}
     }
-    config.headers['Authorization'] = 'bearer ' + getToken()
+    config.headers['Authorization'] = getToken()
   }
   return config
 }, error => {

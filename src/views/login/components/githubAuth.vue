@@ -12,8 +12,8 @@ import qs from 'qs'
 export default {
   data() {
     return {
-      client_id: '2b0fe16de4597db23a12',
-      client_secret: '8fed4616eaf29b3252ff5d730817a390512525b3',
+      client_id: 'e68dcf00ea1640889469',
+      client_secret: '819d7fdb5219fdc344a87d1c393599d3ecebcc4d',
       scope: 'read:user',
       state: 'sunafei',
       getCodeURL: 'https://github.com/login/oauth/authorize',
@@ -23,7 +23,6 @@ export default {
   },
   created: function() {
     this.getCode()
-    console.log('获取到code==' + this.code)
     if (this.code) {
       this.loginLoading = this.$loading({
         lock: true,
@@ -58,7 +57,7 @@ export default {
           this.loginLoading.close()
         }
         this.$router.push({
-          path: '/#/dashboard'
+          path: '/dashboard'
         })
       }).catch(() => {
         this.loading = false

@@ -4,10 +4,10 @@ export function login(userInfo) {
   return request({
     url: '/api/login',
     method: 'post',
-    params: userInfo,
-    headers: {
-      Authorization: 'Basic c2FmX2NsaWVudDpzYWZfIUAjMTIz'
-    }
+    params: userInfo
+    // headers: {
+    //   Authorization: 'Basic c2FmX2NsaWVudDpzYWZfIUAjMTIz'
+    // }
   })
 }
 export function gitHubLogin(tokenInfo) {
